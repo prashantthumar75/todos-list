@@ -68,3 +68,58 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+- GraphQL
+
+- react :
+
+    npx : Temp package manager
+    npm : Package Manager  
+    jsx : javascript syntax extension 
+
+    Create Application:
+        - npx create-react-app todos-list
+
+
+    - Application structure:
+        * Public :  public files, favicon, index.html 
+        * Src : 
+                App.js : Main app for develop,  first component
+                index.js : Start of react application, entry point
+                App.css : 
+                App.test.js : 
+                index.css : 
+                logo.svg : 
+                reportWebVitals.js : 
+                setupTest.js : 
+                test :         - README.md
+        - git ignore
+        - package.json : all packges , dependencies, 
+        - package-lock.json
+
+
+
+    - Flow :
+        - Index.html call app
+            
+        - Index.js :-
+             ReactDOM.render(
+                <React.StrictMode>
+                    <App />
+                </React.StrictMode>,
+                document.getElementById('root')
+                ); // whatever we have in <App /> it will goes into root id
+
+        - Strict Mode : StrictMode is a tool for highlighting potential problems in an application. 
+                        Like Fragment, StrictMode does not render any visible UI. 
+                        It activates additional checks and warnings for its descendants.
+
+
